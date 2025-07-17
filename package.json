@@ -45,9 +45,10 @@
     "@storybook/addon-interactions": "^8.6.14",
     "@storybook/addon-links": "^8.6.14",
     "@storybook/react-vite": "^8.6.14",
+    "chromatic": "^13.1.2",
     "react-styleguidist": "^13.1.4",
     "storybook": "^8.6.14",
     "typescript": "5.4.5",
-    "vite": "^7.0.5"
+    "vite": "^6.0.0"
   }
 }

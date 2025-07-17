@@ -1,8 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { OTPInput, OTPInputContext } from "input-otp@1.4.2";
-import { MinusIcon } from "lucide-react@0.487.0";
+import { OTPInput, OTPInputContext } from "input-otp";
+
 
 import { cn } from "./utils";
 
@@ -59,7 +59,7 @@ function InputOTPSlot({
       {char}
       {hasFakeCaret && (
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-          <div className="animate-caret-blink bg-foreground h-4 w-px duration-1000" />
+          <svg aria-hidden="true" className="mx-1 h-4 w-4 opacity-50" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2"><line x1="4" y1="8" x2="12" y2="8" /></svg>
         </div>
       )}
     </div>

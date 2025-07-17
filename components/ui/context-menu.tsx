@@ -1,8 +1,7 @@
 "use client";
 
 import * as React from "react";
-import * as ContextMenuPrimitive from "@radix-ui/react-context-menu@2.2.6";
-import { CheckIcon, ChevronRightIcon, CircleIcon } from "lucide-react@0.487.0";
+import * as ContextMenuPrimitive from "@radix-ui/react-context-menu";
 
 import { cn } from "./utils";
 
@@ -72,7 +71,7 @@ function ContextMenuSubTrigger({
       {...props}
     >
       {children}
-      <ChevronRightIcon className="ml-auto" />
+      <svg aria-hidden="true" className="size-4" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 4 10 8 6 12" /></svg>
     </ContextMenuPrimitive.SubTrigger>
   );
 }
@@ -152,7 +151,7 @@ function ContextMenuCheckboxItem({
     >
       <span className="pointer-events-none absolute left-2 flex size-3.5 items-center justify-center">
         <ContextMenuPrimitive.ItemIndicator>
-          <CheckIcon className="size-4" />
+          <svg aria-hidden="true" className="size-4" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="4 8.5 7 11.5 12 5.5" /></svg>
         </ContextMenuPrimitive.ItemIndicator>
       </span>
       {children}
@@ -176,7 +175,7 @@ function ContextMenuRadioItem({
     >
       <span className="pointer-events-none absolute left-2 flex size-3.5 items-center justify-center">
         <ContextMenuPrimitive.ItemIndicator>
-          <CircleIcon className="size-2 fill-current" />
+          <svg aria-hidden="true" className="size-2" viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="4" /></svg>
         </ContextMenuPrimitive.ItemIndicator>
       </span>
       {children}

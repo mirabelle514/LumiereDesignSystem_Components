@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Heart, ShoppingCart } from 'lucide-react';
+
 import { 
   LumiereButton, 
   LumiereInput, 
@@ -22,10 +22,10 @@ export function LumiereUsageExample() {
   const [darkMode, setDarkMode] = React.useState(false);
 
   const tabItems: LumiereTabItem[] = [
-    { id: 'home', icon: Search, label: 'Search' },
-    { id: 'favorites', icon: Heart, label: 'Favorites' },
-    { id: 'cart', icon: ShoppingCart, label: 'Cart' }
-  ];
+  { id: 'home', icon: undefined, label: 'Home' },
+  { id: 'favorites', icon: undefined, label: 'Favorites' },
+  { id: 'cart', icon: undefined, label: 'Cart' }
+];
 
   return (
     <div className="min-h-screen bg-background p-6">

@@ -18,7 +18,7 @@ This guide explains how to export and use the Lumière Component Library in othe
 
 3. **Install dependencies:**
    ```bash
-   npm install clsx tailwind-merge lucide-react
+   npm install clsx tailwind-merge 
    ```
 
 4. **Import and use:**
@@ -44,7 +44,7 @@ This guide explains how to export and use the Lumière Component Library in othe
      "dependencies": {
        "clsx": "^2.0.0",
        "tailwind-merge": "^2.0.0",
-       "lucide-react": "^0.400.0"
+       "": "^0.400.0"
      }
    }
    ```
@@ -291,7 +291,7 @@ export function MyCustomButton({ children, ...props }) {
    - Make sure TypeScript is configured
 
 4. **Missing icons:**
-   - Install `lucide-react`: `npm install lucide-react`
+   - Install ``: `npm install `
 
 ### Support
 
@@ -303,7 +303,7 @@ For issues with the original design system, refer to:
 
 - [ ] Copy `/components/lumiere/` directory
 - [ ] Copy CSS theme and fonts
-- [ ] Install dependencies (`clsx`, `tailwind-merge`, `lucide-react`)
+- [ ] Install dependencies (`clsx`, `tailwind-merge`, ``)
 - [ ] Create `cn` utility function
 - [ ] Update import paths if needed
 - [ ] Configure Tailwind CSS

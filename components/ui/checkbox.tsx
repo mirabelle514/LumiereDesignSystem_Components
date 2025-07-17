@@ -1,8 +1,8 @@
 "use client";
 
 import * as React from "react";
-import * as CheckboxPrimitive from "@radix-ui/react-checkbox@1.1.4";
-import { CheckIcon } from "lucide-react@0.487.0";
+import * as CheckboxPrimitive from "@radix-ui/react-checkbox";
+
 
 import { cn } from "./utils";
 
@@ -23,7 +23,7 @@ function Checkbox({
         data-slot="checkbox-indicator"
         className="flex items-center justify-center text-current transition-none"
       >
-        <CheckIcon className="size-3.5" />
+        <svg className="size-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="4 8.5 7 11.5 12 5.5" /></svg>
       </CheckboxPrimitive.Indicator>
     </CheckboxPrimitive.Root>
   );

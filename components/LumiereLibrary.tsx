@@ -1,5 +1,5 @@
 import { useState, forwardRef } from 'react';
-import { Home, User, Settings, Square, Sun, Moon } from 'lucide-react';
+
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
@@ -447,11 +447,11 @@ export function LumiereLibrary() {
   };
 
   const tabItems: LumiereTabItem[] = [
-    { id: '0', icon: Home, label: 'Home' },
-    { id: '1', icon: User, label: 'Profile' },
-    { id: '2', icon: Settings, label: 'Settings' },
-    { id: '3', icon: Square, label: 'More' }
-  ];
+  { id: '0', icon: undefined, label: 'Home' },
+  { id: '1', icon: undefined, label: 'Profile' },
+  { id: '2', icon: undefined, label: 'Settings' },
+  { id: '3', icon: undefined, label: 'More' }
+];
 
   const colorSwatches = [
     { 
@@ -512,7 +512,6 @@ export function LumiereLibrary() {
             size="sm" 
             onClick={toggleDarkMode}
           >
-            {isDark ? <Sun className="w-4 h-4 mr-2" /> : <Moon className="w-4 h-4 mr-2" />}
             Toggle Theme
           </Button>
         </div>

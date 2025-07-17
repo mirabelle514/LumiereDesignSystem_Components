@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Separator } from "./ui/separator";
-import { Home, User, Settings, Square, Sun, Moon } from "lucide-react";
+
 import { useState } from "react";
 
 export function DesignSystemShowcase() {
@@ -49,11 +49,11 @@ export function DesignSystemShowcase() {
   ];
 
   const tabItems = [
-    { icon: Home, active: activeTab === 0 },
-    { icon: User, active: activeTab === 1 },
-    { icon: Settings, active: activeTab === 2 },
-    { icon: Square, active: activeTab === 3 }
-  ];
+  { icon: undefined, active: activeTab === 0 },
+  { icon: undefined, active: activeTab === 1 },
+  { icon: undefined, active: activeTab === 2 },
+  { icon: undefined, active: activeTab === 3 }
+];
 
   return (
     <div className="min-h-screen bg-background">
@@ -81,7 +81,6 @@ export function DesignSystemShowcase() {
             onClick={toggleDarkMode}
             className="mt-4"
           >
-            {isDark ? <Sun className="w-4 h-4 mr-2" /> : <Moon className="w-4 h-4 mr-2" />}
             Toggle Theme
           </Button>
         </div>
@@ -332,7 +331,7 @@ export function DesignSystemShowcase() {
                         : 'text-muted hover:text-background'
                     }`}
                   >
-                    <item.icon className="w-5 h-5" />
+                    <span className="w-5 h-5 inline-block"></span>
                     {item.active && (
                       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1 w-5 h-0.5 bg-background rounded-full"></div>
                     )}
@@ -412,7 +411,7 @@ export function DesignSystemShowcase() {
                             : 'text-muted hover:text-background'
                         }`}
                       >
-                        <item.icon className="w-5 h-5" />
+                        <span className="w-5 h-5 inline-block"></span>
                         {item.active && (
                           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1 w-5 h-0.5 bg-background rounded-full"></div>
                         )}
