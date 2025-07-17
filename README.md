@@ -2,7 +2,7 @@
 
 A modern, accessible, and extensible React component library for building consistent UIs. Built with Radix UI primitives, Tailwind CSS, Vite, and Storybook.
 
-## ✨ Features
+## Features
 - **Accessible React components** (Accordion, Alert, Avatar, Badge, Menubar, Select, etc.)
 - **Radix UI primitives** for robust, cross-browser UI behaviors
 - **Tailwind CSS** utility classes for rapid styling
@@ -10,7 +10,7 @@ A modern, accessible, and extensible React component library for building consis
 - **Vite** for fast local development
 - **Inline SVG icons** (no external icon dependencies)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install dependencies
 ```bash
@@ -28,7 +28,7 @@ Visit [http://localhost:6006](http://localhost:6006) (or next available port) to
 npm run dev
 ```
 
-## 🧩 Components
+## Components
 All components are in `components/ui/` and are written in TypeScript. Each has a corresponding `.stories.tsx` file for Storybook usage.
 
 - Accordion
@@ -41,20 +41,20 @@ All components are in `components/ui/` and are written in TypeScript. Each has a
 - Checkbox
 - ...and many more
 
-## 🛠️ Development
+## Development
 - Modify or add components in `components/ui/`.
 - Add new stories in the same folder using `ComponentName.stories.tsx`.
 - Use `npm run storybook` for interactive development.
 - All icons are inline SVGs for zero external icon dependencies.
 
-## 🤝 Contributing
+## Contributing
 1. Fork the repo
 2. Create your feature branch (`git checkout -b feature/my-feature`)
 3. Commit your changes (`git commit -am 'Add new feature'`)
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a pull request
 
-## 📄 License
+## License
 MIT
 
 ---
