@@ -3,7 +3,14 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
   MoreHorizontalIcon,
-} from "lucide-react@0.487.0";
+// TODO: Replace with inline SVGs for each icon used from lucide-react above. Example:
+// const ChevronLeftIcon = (props: React.SVGProps<SVGSVGElement>) => (
+//   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+//     <path d="M15 18l-6-6 6-6" />
+//   </svg>
+// );
+// Repeat for other icons as needed.
+
 
 import { cn } from "./utils";
 import { Button, buttonVariants } from "./button";
