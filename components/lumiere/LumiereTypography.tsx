@@ -1,5 +1,5 @@
-import { forwardRef } from 'react';
-import { cn } from '../ui/utils';
+import React, { forwardRef } from 'react';
+import { cn } from './utils.js';
 
 export interface LumiereTypographyProps extends React.HTMLAttributes<HTMLElement> {
   variant: 'h1' | 'h2' | 'h3' | 'h4' | 'body' | 'caption' | 'accent';

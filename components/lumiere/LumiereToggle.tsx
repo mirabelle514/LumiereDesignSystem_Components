@@ -1,5 +1,5 @@
-import { forwardRef, useState } from 'react';
-import { cn } from '../ui/utils';
+import React, { forwardRef, useState } from 'react';
+import { cn } from './utils.js';
 
 export interface LumiereToggleProps extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'type'> {
   label?: string;

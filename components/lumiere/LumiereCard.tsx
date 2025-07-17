@@ -1,5 +1,5 @@
-import { forwardRef } from 'react';
-import { cn } from '../ui/utils';
+import React, { forwardRef } from 'react';
+import { cn } from './utils.js';
 
 export interface LumiereCardProps extends React.HTMLAttributes<HTMLDivElement> {
   variant?: 'standard' | 'featured' | 'elevated';

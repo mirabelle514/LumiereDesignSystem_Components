@@ -1,14 +1,14 @@
 # Lumiere Design System
 
-A modern, accessible, and extensible React component library for building consistent UIs. Built with Radix UI primitives, Tailwind CSS, Vite, and Storybook.
+A French-inspired React component library for building elegant, consistent UIs. Built with React, TypeScript, Tailwind CSS, and Storybook.
 
 ## Features
-- **Accessible React components** (Accordion, Alert, Avatar, Badge, Menubar, Select, etc.)
-- **Radix UI primitives** for robust, cross-browser UI behaviors
+- **French-inspired design** with sophisticated color palette and typography
+- **Custom React components** built specifically for your brand
 - **Tailwind CSS** utility classes for rapid styling
 - **Storybook** for interactive component documentation and development
-- **Vite** for fast local development
-- **Inline SVG icons** (no external icon dependencies)
+- **TypeScript** for type safety and better developer experience
+- **Accessible components** with proper ARIA attributes and keyboard navigation
 
 ## Getting Started
 
@@ -29,23 +29,30 @@ npm run dev
 ```
 
 ## Components
-All components are in `components/ui/` and are written in TypeScript. Each has a corresponding `.stories.tsx` file for Storybook usage.
+All components are in `components/lumiere/` and are written in TypeScript. Each has a corresponding `.stories.tsx` file for Storybook usage.
 
-- Accordion
-- Alert & AlertDialog
-- Avatar
-- Badge
-- Button
-- Calendar
-- Carousel
-- Checkbox
-- ...and many more
+### Core Components
+- **LumiereButton** - Primary, secondary, tertiary, and destructive variants
+- **LumiereInput** - Text input with label, error, and helper text support
+- **LumiereTextarea** - Multi-line input with same features as input
+- **LumiereCard** - Standard, featured, and elevated card variants
+- **LumiereToggle** - Custom toggle switch with label and description
+- **LumiereTabBar** - Mobile-optimized tab navigation with icons
+- **LumiereTypography** - Semantic typography component with multiple variants
+- **LumiereColorSwatch** - Color palette documentation component
+- **LumiereMobile** - Mobile device mockup container
+
+### Design System
+- **Color Palette**: Ivory White, Parisian Navy, Antique Gold, Burgundy, Sage Green, Dove Grey
+- **Typography**: Playfair Display for headings, Open Sans for body text
+- **Spacing**: Consistent spacing system with Tailwind CSS
+- **Shadows**: Custom shadow system for depth and elegance
 
 ## Development
-- Modify or add components in `components/ui/`.
+- Modify or add components in `components/lumiere/`.
 - Add new stories in the same folder using `ComponentName.stories.tsx`.
 - Use `npm run storybook` for interactive development.
-- All icons are inline SVGs for zero external icon dependencies.
+- All components follow the French-inspired design language.
 
 ## Contributing
 1. Fork the repo
@@ -59,4 +66,4 @@ MIT
 
 ---
 
-**Lumiere Design System** — Designed for speed, accessibility, and beautiful UI consistency.
+**Lumiere Design System** — French-inspired elegance for modern web applications.

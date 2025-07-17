@@ -28,8 +28,14 @@ export type { LumiereMobileProps } from './LumiereMobile';
 export { LumiereColorSwatch } from './LumiereColorSwatch';
 export type { LumiereColorSwatchProps } from './LumiereColorSwatch';
 
+export { LumiereColorPalette } from './LumiereColorPalette';
+export type { LumiereColorPaletteProps } from './LumiereColorPalette';
+
 export { LumiereTypography } from './LumiereTypography';
 export type { LumiereTypographyProps } from './LumiereTypography';
+
+export { LumiereShowcase } from './LumiereShowcase';
+export type { LumiereShowcaseProps } from './LumiereShowcase';
 
 // Export color constants
 export const LUMIERE_COLORS = {

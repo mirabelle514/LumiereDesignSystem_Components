@@ -1,5 +1,5 @@
-import { forwardRef } from 'react';
-import { cn } from '../ui/utils';
+import React, { forwardRef } from 'react';
+import { cn } from './utils.js';
 
 export interface LumiereMobileProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
